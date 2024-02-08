@@ -7,7 +7,7 @@ require([
 ], function(Map, MapView, FeatureLayer, Graphic, Popup) {
 
   var map = new Map({
-    basemap: 'gray-vector'
+    basemap: 'streets'
   });
 
   var view = new MapView({
@@ -21,6 +21,7 @@ require([
     portalItem: {
       id: 'a5ed4c7b8815449eb762e27890dd0b4a'
     },
+    opacity: 0.3,
     title: 'St Louis Neighborhoods'
   });
 
